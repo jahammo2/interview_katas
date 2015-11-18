@@ -7,12 +7,12 @@
 ```
 $ cd [dir_name]
 ```
-##### 4 - Install jasmine and jasmine-jquery
+##### 3 - Install jasmine and jasmine-jquery
 ```
 $ bower install jasmine
 $ bower install jasmine-jquery
 ```
-##### 5 - Go to your browser and open jas-test.html
+##### 4 - Go to your browser and open jas-test.html
 ```
 /[dir_name]/jas-test.html
 ```
@@ -20,7 +20,7 @@ You'll see the failing tests. The first failing test in coin_changer should have
 ```
 TypeError: app.createChange is not a function
 ```
-##### 6 - Have interviewee make JavaScript code changes in src/js/app.js
+##### 5 - Have interviewee make JavaScript code changes in src/js/app.js
 ```
 /coin_changer/src/js/app.js
 ```
@@ -30,4 +30,4 @@ app.createChange = function (num) {
  return [];
 }
 ```
-##### 7 - Refresh the browser to see if the new code got the tests to pass
+##### 6 - Refresh the browser to see if the new code got the tests to pass

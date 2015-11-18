@@ -7,18 +7,10 @@
 ```
 $ cd [dir_name]
 ```
-##### 3 - Install Gulp
-```
-$ npm install -g gulp
-```
 ##### 4 - Install jasmine and jasmine-jquery
 ```
 $ bower install jasmine
 $ bower install jasmine-jquery
-```
-##### 4 - Run Gulp
-```
-$ gulp
 ```
 ##### 5 - Go to your browser and open jas-test.html
 ```

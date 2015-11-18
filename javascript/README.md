@@ -3,8 +3,9 @@
 ## How To Use
 
 ##### 1 - Git clone this repository
-##### 2 - cd into the Kata of your choice
+##### 2 - cd into the JavaScript directory and then the Kata of your choice
 ```
+$ cd javascript
 $ cd [dir_name]
 ```
 ##### 3 - Install jasmine and jasmine-jquery

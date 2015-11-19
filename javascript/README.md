@@ -25,7 +25,7 @@ TypeError: app.createChange is not a function
 ```
 /coin_changer/src/js/app.js
 ```
-This code will get the first test to pass:
+This code will get the first test to pass in coin_changer:
 ```
 app.createChange = function (num) {
  return [];

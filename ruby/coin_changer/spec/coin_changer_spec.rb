@@ -1,10 +1,9 @@
-# require_relative 'spec_helper'
 require_relative '../coin_changer'
 
 describe CoinChanger do
   let(:coin_changer) {CoinChanger.new}
 
-  it "will give out nothings if the amount of change is 0" do
+  it "will give out no coins if the amount of change is 0" do
     expect(coin_changer.deliver_coins(0)).to eq([])
   end
 
